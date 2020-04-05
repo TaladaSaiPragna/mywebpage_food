@@ -1,0 +1,53 @@
+$variable1: gray;
+$variable2: darkgray;
+
+.example{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.carousel-item {
+    // scss nesting
+    img{
+        width:100%;
+         height:500px;
+     
+     }
+}
+ body{
+     background-color: darkgrey;
+ }
+ h2{
+     font-stretch: narrower;
+ }
+ .choice{
+     padding-left: 150px;
+     padding-right: 150px;
+    //  scss inheritence
+     @extend .example;
+    background-color: $variable1;
+
+ }
+  .choice i:hover{
+      color: darkred;
+  }
+ h1{
+     text-align: center;
+     color: black;
+ }
+ .info{
+    //  scss nesting properties
+     padding: {
+        left: 100px;
+        right:150px;
+        top: 75px;
+        bottom: 30px;
+     }
+ }
+ .table{
+    //  scss inheritence
+     @extend .example;    
+     padding-left:500px;
+     padding-right: 200px;
+     width: 50%;
+ }

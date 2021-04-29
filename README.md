@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 My website is about few cuisines. Index page is the home page of my website. There are four different html pages linked with
 the homepage. These four different pages describes about four different cuisines. There are images in all the pages. There is
-a table in thehome page describing about famous foods in four different countries. In the pages like Indian,Chineses, italian 
+a table in thehome page describing about famous food in four different countries. In the pages like Indian,Chineses, italian 
 and american there are flex boxes which gets adjusted according to the screen size.
  
  All the five pages are interlinked with each other. We can navigate from one page to any other page.
